@@ -7,6 +7,8 @@ from scrapy.item import Item, Field
 
 
 class TooskiNews(Item):
-    title = Field()
+    location = Field()
+    id = Field()
     link = Field()
     date = Field()
+    type = Field()

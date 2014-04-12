@@ -12,4 +12,4 @@ SPIDER_MODULES = ['tooski.spiders']
 NEWSPIDER_MODULE = 'tooski.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'tooski (+http://www.yourdomain.com)'
+USER_AGENT = 'Google (+http://www.google.com)'
