@@ -15,3 +15,10 @@ class TooskiNews(Item):
     genre = Field()
     info = Field()
     discipline = Field()
+
+
+class TooskiRanking(Item):
+    link = Field()
+    info = Field()
+    men = Field()
+    women = Field()
