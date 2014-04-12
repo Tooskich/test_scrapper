@@ -11,4 +11,7 @@ class TooskiNews(Item):
     id = Field()
     link = Field()
     date = Field()
-    type = Field()
+    category = Field()
+    genre = Field()
+    info = Field()
+    discipline = Field()
